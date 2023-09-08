@@ -1,0 +1,20 @@
+SPEC de.coffee.api.Coffee
+
+OBJECTS
+	int amount;
+	de.coffee.api.Sugar sugar;
+
+EVENTS
+	s1: Coffee();
+	s2: Coffee(amount);
+	constructor:= s1 | s2;
+	
+	s3: addSugar(sugar);
+	
+	someMethod: statMethod();
+
+ORDER
+	constructor, s3, someMethod
+
+CONSTRAINTS
+	amount in {10, 20};
