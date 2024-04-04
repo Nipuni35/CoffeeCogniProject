@@ -8,5 +8,6 @@
 	</classpathentry>
 	<classpathentry exported="true" kind="lib" path="D:/Alberta/Thesis/codebases/coffeeApi.jar"/>
 	<classpathentry exported="true" kind="lib" path="D:/Alberta/Thesis/codebases/Crypto-API-Rules/Coffee/target/Coffee-0.1-ruleset.zip"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
